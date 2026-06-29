@@ -16,7 +16,8 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://3580-160-160-159-202.ngrok-free.app"
+        "EXPO_PUBLIC_API_URL": "https://3580-160-160-159-202.ngrok-free.app",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     },
     "production": {
@@ -24,7 +25,8 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://3580-160-160-159-202.ngrok-free.app"
+        "EXPO_PUBLIC_API_URL": "https://3580-160-160-159-202.ngrok-free.app",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     }
   },
