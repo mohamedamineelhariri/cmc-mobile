@@ -19,7 +19,7 @@
         "EXPO_PUBLIC_API_URL": "https://3580-160-160-159-202.ngrok-free.app",
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       },
-      "prebuildCommand": "sed -i 's|gradle-.*-bin.zip|gradle-8.10.2-bin.zip|' android/gradle/wrapper/gradle-wrapper.properties"
+      "prebuildCommand": "npx expo prebuild --platform android --no-install && sed -i 's|gradle-9.[0-9.]*-bin.zip|gradle-8.10.2-bin.zip|' android/gradle/wrapper/gradle-wrapper.properties"
     },
     "production": {
       "android": {
