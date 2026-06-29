@@ -16,6 +16,7 @@
     "@react-navigation/native": "^7.0.0",
     "@tanstack/react-query": "^5.101.2",
     "expo": "^56.0.12",
+    "expo-build-properties": "^56.0.19",
     "expo-constants": "~56.0.18",
     "expo-device": "^56.0.4",
     "expo-document-picker": "^56.0.4",
@@ -33,10 +34,10 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-hook-form": "^7.54.0",
-    "react-native": "0.76.6",
+    "react-native": "0.85.3",
     "react-native-gesture-handler": "~2.31.1",
     "react-native-paper": "^5.15.3",
-    "react-native-reanimated": "~3.16.0",
+    "react-native-reanimated": "~4.3.1",
     "react-native-safe-area-context": "~5.7.0",
     "react-native-screens": "4.25.2",
     "react-native-svg": "^15.15.5",
@@ -44,10 +45,7 @@
     "tailwindcss": "^3.4.0",
     "tailwindcss-react-native": "^1.7.10",
     "zod": "^3.24.0",
-    "zustand": "^5.0.14"
-  },
-  "overrides": {
-    "@react-native/gradle-plugin": "0.81.6"
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",

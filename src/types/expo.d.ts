@@ -1,0 +1,4 @@
+declare module 'expo-document-picker'
+declare module 'expo-speech'
+declare module 'expo-device'
+declare module 'expo-secure-store'
