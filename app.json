@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CMC Campus",
-    "slug": "cmc-campus",
+    "slug": "cmc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +22,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1b6f7d"
       },
-      "package": "com.cmc.campus"
+      "package": "com.cmc.campus",
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ]
     },
     "plugins": [
       "expo-router",
@@ -32,6 +36,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7adbebe3-cb94-4abf-bc74-559ca3940642"
+      }
+    },
+    "owner": "velixokhs-team"
   }
 }
