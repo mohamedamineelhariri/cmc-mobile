@@ -46,6 +46,9 @@
     "zod": "^3.24.0",
     "zustand": "^5.0.14"
   },
+  "overrides": {
+    "@react-native/gradle-plugin": "0.81.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.25.0",
     "@types/react": "~18.3.0",
